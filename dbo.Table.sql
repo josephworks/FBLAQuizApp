@@ -1,10 +1,4 @@
-# FBLAQuizApp
-An FBLA Quiz Software
-
-## Database
-
-```sql
-CREATE TABLE [dbo].[Table]
+﻿CREATE TABLE [dbo].[Table]
 (
 	[Id] INT NOT NULL PRIMARY KEY, 
     [QuestionType] NCHAR(10) NULL, 
@@ -15,4 +9,3 @@ CREATE TABLE [dbo].[Table]
     [Answer3] NCHAR(10) NULL, 
     [Answer4] NCHAR(10) NULL
 )
-```
