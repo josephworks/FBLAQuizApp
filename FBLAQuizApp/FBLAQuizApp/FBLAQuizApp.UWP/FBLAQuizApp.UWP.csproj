@@ -8,17 +8,17 @@
       you need to make sure that the version provided here matches https://github.com/novotnyllc/MSBuildSdkExtras/blob/main/Source/MSBuild.Sdk.Extras/DefaultItems/ImplicitPackages.targets#L11.
       This is not an issue when libraries are referenced through nuget packages. See https://github.com/unoplatform/uno/issues/446 for more details.
       -->
-      <Version>6.2.11</Version>
+      <Version>6.2.12</Version>
     </PackageReference>
-    <PackageReference Include="Uno.Core" Version="2.1.0" />
+    <PackageReference Include="Uno.Core" Version="2.2.0" />
     <PackageReference Include="Uno.UI" Version="3.5.1" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="1.1.1" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Filter" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Filter" Version="1.1.2" />
   </ItemGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>99cf192f-48e9-4106-9c65-429eb3085f35</ProjectGuid>
+    <ProjectGuid>{99CF192F-48E9-4106-9C65-429EB3085F35}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FBLAQuizApp</RootNamespace>
