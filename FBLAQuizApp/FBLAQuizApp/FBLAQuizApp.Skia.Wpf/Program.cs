@@ -1,4 +1,0 @@
-﻿
-namespace FBLAQuizApp.Skia.Gtk
-{
-}
