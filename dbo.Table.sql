@@ -1,11 +1,11 @@
 ﻿CREATE TABLE [dbo].[Table]
 (
 	[Id] INT NOT NULL PRIMARY KEY, 
-    [QuestionType] TEXT NULL, 
-    [Question] TEXT NULL, 
-    [CorrectAnswer] TEXT NULL, 
-    [Answer1] TEXT NULL, 
-    [Answer2] TEXT NULL, 
-    [Answer3] TEXT NULL, 
-    [Answer4] TEXT NULL
+    [QuestionType] NTEXT NULL, 
+    [Question] NTEXT NULL, 
+    [CorrectAnswer] NTEXT NULL, 
+    [Answer1] NTEXT NULL, 
+    [Answer2] NTEXT NULL, 
+    [Answer3] NTEXT NULL, 
+    [Answer4] NTEXT NULL
 )
