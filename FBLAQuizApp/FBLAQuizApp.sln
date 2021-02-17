@@ -13,17 +13,22 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBLAQuizApp.iOS", "FBLAQuiz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBLAQuizApp.UWP", "FBLAQuizApp\FBLAQuizApp.UWP\FBLAQuizApp.UWP.csproj", "{99CF192F-48E9-4106-9C65-429EB3085F35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBLAQuizApp.Wasm", "FBLAQuizApp\FBLAQuizApp.Wasm\FBLAQuizApp.Wasm.csproj", "{0C39483C-8D8A-4BF6-8FAE-F47F46AF7E50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FBLAQuizApp.Wasm", "FBLAQuizApp\FBLAQuizApp.Wasm\FBLAQuizApp.Wasm.csproj", "{0C39483C-8D8A-4BF6-8FAE-F47F46AF7E50}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBLAQuizApp.macOS", "FBLAQuizApp\FBLAQuizApp.macOS\FBLAQuizApp.macOS.csproj", "{931DB34B-0BCC-4D45-97D8-F48F1AE372D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBLAQuizApp.Skia.Wpf.Host", "FBLAQuizApp\FBLAQuizApp.Skia.Wpf.Host\FBLAQuizApp.Skia.Wpf.Host.csproj", "{71796FEF-941D-4E56-8F5F-B09892A125DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FBLAQuizApp.Skia.Wpf.Host", "FBLAQuizApp\FBLAQuizApp.Skia.Wpf.Host\FBLAQuizApp.Skia.Wpf.Host.csproj", "{71796FEF-941D-4E56-8F5F-B09892A125DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBLAQuizApp.Skia.Wpf", "FBLAQuizApp\FBLAQuizApp.Skia.Wpf\FBLAQuizApp.Skia.Wpf.csproj", "{90AE4D23-1943-4853-BC16-3040471ED8C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FBLAQuizApp.Skia.Wpf", "FBLAQuizApp\FBLAQuizApp.Skia.Wpf\FBLAQuizApp.Skia.Wpf.csproj", "{90AE4D23-1943-4853-BC16-3040471ED8C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBLAQuizApp.Skia.Gtk", "FBLAQuizApp\FBLAQuizApp.Skia.Gtk\FBLAQuizApp.Skia.Gtk.csproj", "{9796ECDC-BA38-4296-8F42-608B8AD66F01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FBLAQuizApp.Skia.Gtk", "FBLAQuizApp\FBLAQuizApp.Skia.Gtk\FBLAQuizApp.Skia.Gtk.csproj", "{9796ECDC-BA38-4296-8F42-608B8AD66F01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FBLAQuizApp.Skia.Tizen", "FBLAQuizApp\FBLAQuizApp.Skia.Tizen\FBLAQuizApp.Skia.Tizen.csproj", "{3B9458EA-3582-4DCF-BB6C-7B6E0724C597}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FBLAQuizApp.Skia.Tizen", "FBLAQuizApp\FBLAQuizApp.Skia.Tizen\FBLAQuizApp.Skia.Tizen.csproj", "{3B9458EA-3582-4DCF-BB6C-7B6E0724C597}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6626B4D7-C6C6-4614-A8CB-66F7F772CF09}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
