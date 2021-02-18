@@ -12,7 +12,7 @@ Refer to https://docs.microsoft.com/en-us/windows/apps/fluent-design-system for 
 ```sql
 CREATE TABLE [dbo].[Table]
 (
-	[Id] INT NOT NULL PRIMARY KEY, 
+    [Id] INT NOT NULL PRIMARY KEY, 
     [QuestionType] NTEXT NULL, 
     [Question] NTEXT NULL, 
     [CorrectAnswer] NTEXT NULL, 
