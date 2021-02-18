@@ -5,6 +5,8 @@ An FBLA Quiz Software
 
 Refer to https://gallery.platform.uno/ for UI design.
 
+Refer to https://docs.microsoft.com/en-us/windows/apps/fluent-design-system for UWP development.
+
 ## Database
 
 ```sql
